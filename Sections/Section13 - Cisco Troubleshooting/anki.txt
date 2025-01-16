@@ -1,0 +1,28 @@
+Ping uses what protocol?
+A: ICMP (Internet Control Message Protocol)
+
+This command does a ping, hop by hop, from the source to the destination, 
+and it will often indicate which router along the path has got the problem.
+A: traceroute
+
+The Cisco troubleshooting methodology that starts off 
+at the Application Layer then moving down through the layers.
+A: Top Down
+
+The Cisco troubleshooting methodology that starts at 
+the Physical Layer then moving up through the layers.
+A: Bottom Up
+
+TTL stands for [...].
+A: Time to  Live
+
+The traceroute command sends the ping with increasing [...] values.
+A: TTL
+
+Ping and traceroute commands troubleshoot Layer [...] problems.
+A: layer 3
+
+The [...] command is usually used to access the CLI of a device via port 23 
+but it also helps with troubleshooting layer 4 
+and above problems by being able to [...] to a particular port.
+A: telnet, telnet

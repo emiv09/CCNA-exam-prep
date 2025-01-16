@@ -1,0 +1,68 @@
+If an IOS image cannot be found, the device will show the [...] prompt at the command line.
+A: rommon
+
+When the device is powered on, it will first load from [...].
+A: ROM
+
+The system will load the first IOS image found in here by default.
+A: Flash
+
+When the system has finished loading the IOS system image from Flash, it will load the startup-config configuration file from [...].
+A: NVRAM
+
+If no startup-config file is found in the NVRAM, the device will load the [...].
+A: setup wizard
+
+The [...] and startup-config are loaded from Flash and NVRAM into RAM during bootup.
+A: IOS system image
+
+TFTP stands for [...].
+A: Trivial file transfer protocol
+
+To replace a configuration, factory reset the device and then copy the new configuration into the [...].
+A: startup configuration
+
+If you copy a config file into the running-config, it will be [...] with the current configuration.
+A: merged
+
+What command is used to copy the running configuration to the TFTP server?
+A: copy run tftp
+
+This Configuration Register value ignores contents of NVRAM (startup-config).
+A: 0x2142
+
+What configuration register value will allow you to boot into ROMMON?
+A: 0x2120
+
+This command is used to copy the IOS image to the device's Flash using TFTP.
+A: copy tftp flash
+
+You can set where the system will find the IOS image to load using this command.
+A: boot system
+
+Whenever you enter a command in IOS, it takes effect immediately and goes into the [...].
+A: running-config
+
+The [...] and startup-config are loaded from Flash and NVRAM into RAM during bootup.
+A: IOS system image
+
+This memory is used as the normal working memory of the device.
+A: RAM
+
+To configure the configuration register, use the [...] command in global configuration mode or 'confreg' at the ROMMON prompt.
+A: config-register
+
+If you copy a config file into the running-config, it will be [...] with the current configuration.
+A: merged
+
+What does POST stand for?
+A: Power On Self Test
+
+The IOS system image and [...] are loaded from Flash and NVRAM into RAM during bootup.
+A: startup-config
+
+To configure the configuration register, use the 'config-register' command in global configuration mode or [...] at the ROMMON prompt.
+A: confreg
+
+You can set where the system will find the IOS image to load using this command.
+A: boot system

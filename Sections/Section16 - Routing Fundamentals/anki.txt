@@ -1,0 +1,59 @@
+It consists of directly connected networks and routes configured statically 
+by the administrator or dynamically learned through a routing protocol.
+A: Routing Table
+
+[...] routes always have a /32 mask and show the IP address configured on the interface.
+A: Local
+
+What type of route is shown below?
+
+Router1#show ip route
+C 10.10.10.0/24 is directly connected, GigabitEthernet0/0/0
+
+A: Connected Route
+
+What type of route is shown below?
+
+Router1#show ip route
+L 10.10.20.1/32 is directly connected, GigabitEthernet0/0/1
+
+A: Local Route
+
+For static routing, [...] routes lessen the administrative overhead because there are less routes to configure. 
+It also lessens the memory usage on the routers.
+A: summary
+
+Which of the following has the longest prefix match?
+192.168.10.0/24 
+192.168.10.0/28
+192.168.0.0/16
+A: 192.168.10.0/28
+
+When multiple equal length routes are added for the same destination, 
+the router will add them all to the routing table and [...] between them.
+A: load balance
+
+This is a route going out to everywhere else that we haven't specifically had a route for elsewhere.
+A: Default Route
+
+This route is a catch-all for any traffic that does not match one of our more specific routes.
+A: Default Route
+
+An administrator can manually add a [...] route to the destination, or the router can learn it via a routing protocol.
+A: Static
+
+The best available next hop or next hops to a destination network are listed in a router’s [...] and will be used for forwarding traffic.
+A: Routing table
+
+What is the show command used to view the routing table on a router?
+A: show ip route
+
+It consists of directly connected networks and routes configured statically by the administrator or dynamically learned through a routing protocol.
+A: Routing table
+
+You are asked to configure a static route going to 172.16.0.0/16 with the next hop address of 172.17.1.1. What command will you enter?
+Router(config)# ?
+A: ip route 172.16.0.0 255.255.0.0 172.17.1.1
+
+An administrator can manually add a static route to the destination, or the router can learn it via a [...].
+A: Routing protocol

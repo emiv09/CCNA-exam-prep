@@ -1,0 +1,55 @@
+Each possible path will be assigned a [...] value by the routing protocol which indicates how preferred the path is.
+A: Metric
+
+What is the metric of RIP?
+A: Hop Count
+
+OSPF uses [...] as the metric, which is automatically derived from interface bandwidth by default.
+A: Cost
+
+[...] will load balance the outbound traffic to the destination over the different paths.
+A: ECMP (Equal cost Multi Path)
+
+This is a measure of how trusted the routing protocol is.
+A: Administrative Distance
+
+OSPF AD
+A: 110
+
+Connected interface AD
+A: 0
+
+Static Route AD
+A: 1
+
+EIGRP AD
+A: 90
+
+With [...] static routes, we can change the Administrative Distance of a static route to make it act as the backup route.
+A: Floating
+
+Which route is most preferred for a destination IP of 192.168.1.1?
+192.168.1.0/24 OSPF route
+192.168.1.0/28 RIP route
+192.168.0.0/16 Static route
+
+A: 192.168.1.0/28 rip route
+
+Which of the following routes is the most preferred?
+10.10.1.0/24 RIP route
+10.10.1.0/24 EIGRP route
+10.10.1.0/24 OSPF route
+
+A: EIGRP
+
+These interfaces allow you to include an IP subnet in the routing protocol without sending updates out of the interface.
+A: Passive interfaces
+
+For routing protocols, it is best practice to configure loopback interfaces as [...] interfaces.
+A: Passive
+
+When an IGP (Interior Gateway Protocol) as routing protocol is enabled on an interface, the router will look for other devices on the link which are also running the routing protocol. If a matching peer is found, the routers form an [...] with each other.
+A: Adjancency
+
+[...] Gateway Protocols are used for routing within an organisation.
+A: Interior

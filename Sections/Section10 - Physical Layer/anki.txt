@@ -1,0 +1,56 @@
+This OSI layer puts the actual bits onto the wire.
+A: Physical Layer
+
+This OSI layer provides the hardware means of sending and receiving data, including defining cables, 
+interface cards and physical aspects. 
+A: Physical Layer
+
+What does UTP stand for?
+A: UTP - unshielded twisted pair
+
+The OSI Layer 1 conveys the [...], which could be electrical impulse, light or radio signals. 
+A: bitstream
+
+These Ethernet cables are used to connect devices of different types together, 
+such as a PC or router to a switch or hub.
+A: straight through cables
+
+These cables are most often used to connect two devices of the same type directly, 
+like two switches to each other.
+A: crossover cables
+
+Modern switches support [...] where the receive and transmit 
+signals are reconfigured automatically to yield the expected result.
+A: Auto MDI-X
+
+The two types of fiber optic cables are [...] and Multi Mode.
+A: Single Mode
+
+This fiber cable type is more expensive and supports higher bandwidth and longer distances.
+A: Single Mode
+
+What does PoE stand for?
+A: Power over Ethernet
+
+It delivers power to the devices over the standard network cable. 
+This saves you from using a separate power supply for all connected devices.
+A: Power over Ethernet(PoE)
+
+What's the maximum length of UTP cables?
+A: 100 metres
+
+With Auto MDI-X disabled, what UTP cable is used to connect the device below?
+A: Crossover cable
+
+With Auto MDI-X disabled, what UTP cables are used to connect the devices below?
+A: Straight-through Cable
+
+What connector type is on the end of a standard UTP cable?
+A: RJ-45
+
+This fiber cable type supports a few hundred meters maximum distance.
+A: MultiMode Cable
+
+With fiber optical cables, the connector typically plugs into a [...], 
+which then plugs into the switch or router.
+A: transceiver

@@ -1,0 +1,49 @@
+DNS stands for [...].
+A: Domain Name system
+
+What does FQDN stand for?
+A: Fully Qualified domain name
+
+What resolves an FQDN to an IP address?
+A: DNS
+
+This is used to map an IP address to a MAC address.
+A: ARP (Address resolution protocol)
+
+ARP
+messages (replies and requests from neighboring hosts) are saved in a host's [...], so it doesn’t need to send an ARP
+request every time it wants to communicate.
+A: ARP Cache
+
+DNS requests are sent using UDP port [...].
+A: 53
+
+What command is entered on a router for it to be able to resolve hostnames?
+A: ip domain-lookup
+
+You are tasked to create a primary domain named 'flackbox.com'. What command will you enter?
+A: ip domain-name flackbox.com
+
+What command is entered on a router for it to act as a DNS server?
+A: ip dns server
+
+What command is entered on the DNS-Client to allow it to send DNS queries to the DNS-Server?
+A: ip name-server 172.16.1.1
+
+ARP uses two message types, which are ARP Request and [...].
+A: ARP Reply
+
+PC1 sends an ARP Request to PC2. PC1 doesn't know PC2's MAC address yet. What will be the Destination MAC of the ARP Request?
+A: FFF.FFF.FFF
+
+PC2 receives an ARP Request from PC1 for the 192.168.1.20 IP address. PC2 sends an ARP Reply with Source MAC address of 00B2.2000.000B and Destination MAC address of [...].
+A: 00A1.1000.000A
+
+When sending a packet to another subnet, the end host will send an ARP request to its own [...] first.
+A: default gateway
+
+ARP uses two message types, which are [...] and ARP Reply.
+A: ARP Request
+
+What command is entered on a router for it to be able to resolve hostnames?
+A: ip domain-lookup

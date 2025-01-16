@@ -1,0 +1,58 @@
+NIC = network interface controller
+
+[...] are encoded and decoded into bits at Layer 2.
+	A: Frames
+
+Error detection for the Physical Layer can be provided in this OSI layer.
+	A: Data-link Layer
+
+How many bits does a MAC address have?
+	A: 48 bits
+The first 24 bits of the MAC address is the [...] which uniquely identifies the manufacturer of the Ethernet port.
+	A: OUI (Organizationally Unique Identifier)
+The [...] MAC address on every NIC port in the world is globally unique.
+A: burned in
+
+What does MAC stand for?
+A: Media Access control
+
+The Organizationally Unique Identifier (OUI) is assigned by the [...]. 
+A: IEEE
+
+The term for the message in the Data Link Layer.
+A: Frame
+
+What part of Ethernet header is at the start?
+A: Preamble
+
+Which Ethernet header part helps the sender and the receiver to synchronize?
+A: Preamble
+
+[...] are encoded and decoded into bits at Layer 2.
+A: Frames
+
+What does the acronym FCS stand for?
+A: Frame Check Sequence
+
+The [...] field in the Ethernet header is used to specify what is 
+encapsulated inside the data of the Ethernet frame.
+A: Ethertype
+
+The [...] MAC address on every NIC port in the world is globally unique.
+A: burned in
+
+The [...] is a cyclical redundancy check which is used to check for the integrity of the frame, 
+to check that it has not been corrupted during transit.
+A: Frame Check Sequence(FCS)
+
+The MAC address is how many bytes long?
+A: 6 bytes
+
+In the MAC address BC:54:2F:70:E2:43, what is the OUI portion?
+A: BC:54:2F
+
+In the MAC address 08:97:98:AC:2E:95, what is the vendor assigned portion?
+A: AC:2E:95
+
+Frames are encoded and decoded into [...] at Layer 2.
+A: bits

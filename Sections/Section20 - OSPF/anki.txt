@@ -1,0 +1,70 @@
+OSPF uses [...] algorithm to determine the best path to learned networks.
+A: Djisktra Shortest Path First
+
+OSPF is a [...] routing protocol.
+A: Link State Routing Protocol
+
+OSPF routers use these advertisements to pass on routing updates.
+A: Link State Advertisements (LSA)
+
+A router will send out and listen for [...] packets when OSPF is enabled on an interface.
+A: Hello
+
+Adjacent OSPF routers will tell each other the networks they know about using this packet.
+A: DataBase Description
+
+What OSPF packet type is sent by a router to its neighbor if it's missing information about any of the networks in the received DBD?
+A: LSR(Link state request)
+
+What OSPF packet contains a list of LSAs which should be updated?
+A: LSU (Link state updated)
+
+What does 10 signify in the command below?
+Router(config)#router ospf 10
+A: Process ID
+
+OSPF routers identify themselves using an OSPF [...] which is in the form of an IPv4 address.
+A: Router ID 
+
+The rate that Ethernet interfaces physically transmit at is set by the [...] command.
+A: speed
+
+[...] interfaces transmit at 1000 Mbps by default.
+A: GigabitEthernet
+
+FastEthernet interfaces transmit at [...] Mbps by default.
+A: 100
+
+The rate that Serial interfaces physically transmit at is set by the [...] command.
+A: clock rate
+
+Serial interfaces transmit at what rate by default?
+A: 1.544 Mbps 
+
+The [...] command affects software policy on a router, such as which path will be selected by EIGRP or OSPF.
+A: bandwidth
+
+Cost = [...] / Interface Bandwidth
+A: reference bandwidth
+
+What command will you enter to manually specify an OSPF cost value of 15? 
+R1(config-if)# ?
+A: ip ospf cost 15
+
+It is how long a router waits to hear from a neighbor before declaring it out of service. The default is 4x the Hello Interval.
+A: Dead Interval
+
+This is how often a router sends Hello packets. The default is 10 secs.
+A: Hello interval
+
+In a multi-area setup, the OSPF area 0 or "backbone" area does generally not contain end users. It is for [...] traffic only.
+A: transit
+
+OSPF routers use these advertisements to pass on routing updates.
+A: LSA(link state Advertisment)
+
+Adjacent OSPF routers will tell each other the networks they know about using this packet.
+A: DataBase Description(DBD)
+
+Serial interfaces transmit at what rate by default?
+A: 1.544Mbps

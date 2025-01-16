@@ -1,0 +1,54 @@
+What command will you enter to configure the IP address 10.128.254.255/30 on an interface?
+A: None. 10.128.254.255 is the broadcast address in the /30 network and will not be accepted.
+
+What does SVI stand for?
+A: Switched Virtual Interface
+
+The switch Management IP address and subnet mask 
+is configured on the [...] for the default VLAN 1.
+A:Switched Virtual Interface (SVI)
+
+This command configures a descriptive name to a device that makes it easier to identify that device.
+A: hostname
+
+Interface speed and duplex is set to [...] by default
+A: auto
+
+This Cisco proprietary Layer 2 protocol is used to share information with other directly connected Cisco equipment, 
+such as the operating system version and IP address.
+A: CDP(Cisco Discovery Protocol)
+
+This is an open standard protocol which provides similar information to CDP. 
+A: LLDP(Link Layer Discovery Protocol)
+
+What command will you enter to configure the IP address 10.128.254.254/30 on an interface?
+A: ip address 10.128.254.254 255.255.255.252
+
+What command will set the interface to full duplex?
+A: duplex full
+
+What command is entered on the interface level to configure a speed of 100 Mbps?
+A: speed 100
+
+This command enables auto duplex configuration.
+A: duplex auto
+
+This command shows the entire running configuration on the device.
+A: show run
+
+An 'administratively down' interface status means that the interface is not issued with the ‘no shutdown’ command.
+
+This command shows you the version of IOS that is running on the device. It will also show additional information like how much memory is installed in the device.
+A: show version
+
+CDP stands for?
+A: Cisco Discovery Protocol
+
+To disable CDP globally on a device, the command used is [...].
+A: no cdp run
+
+To disable CDP at the interface level, this command is used.
+A: no cdp enable
+
+What command will you enter to configure the IP address 10.128.254.254/30 on an interface?
+A: ip 10.128.254.254 255.255.255.252

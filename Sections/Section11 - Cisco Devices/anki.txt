@@ -1,0 +1,74 @@
+Hubs operate in this duplex mode.
+A: Half-Duplex
+
+Hubs operate at the [...] of the OSI model.
+A: Layer-1
+
+In this duplex mode, the attached hosts can either send or receive data. 
+They can't do both at the same time.
+A: Half Duplex
+
+The method that is used for detecting and recovering from collisions is [...].
+A: CSMA/CD
+
+What does the acronym CSMA/CD stand for?
+A: Carrier-Sense Multiple Access with Collision Detection
+
+When operating in this duplex mode, the attached host can both 
+send and receive data at the same time using their receive and transmit wires.
+A: Full-Duplex mode
+
+With this duplex mode, all hosts have their own dedicated collision domain.
+A: Full-Duplex
+
+These are advanced switches that are Layer 3 aware 
+and can route traffic between different IP subnets.
+A: Layer 3 Switches
+
+Layer 2 switches are [...] address aware.
+A: MAC
+
+A Layer [...] device is needed to route traffic between different subnets.
+A: 3
+
+The switch MAC address table is empty. PC2 sends traffic to PC3. 
+What MAC address will the switch enter in the MAC address table?
+A: PC2 (0002.2222.000B)
+
+The switch MAC address table is empty. PC2 sends traffic to PC3. 
+What Port will the switch enter in the MAC address table?
+A:F0/2
+
+The switch received traffic to an unknown unicast address from PC4. 
+The switch will send it out all ports, except port [...].
+A:F0/4
+
+PC1 receives a frame with a destination MAC address of 0003.3333.000C. 
+What will PC1 do with the frame?
+A: Discard/Drop the frame
+
+The switch MAC address table has a single existing entry of 0001.1111.000A 
+mapped to Port F0/1. PC4 sends traffic to PC1. 
+What MAC address will the switch enter in the MAC address table?
+A:0004.4444.000D
+
+The switch MAC address table has an existing entry of 0003.3333.000C mapped to Port F0/3. 
+PC1 sends traffic to PC3. Which port/s will the switch forward the traffic to?
+A: F0/3
+
+The switch is just plugged into the network. It receives a frame with a 
+source MAC address of 1001.00A5.30A9 and a destination MAC address of 505C.1000.F008. 
+What MAC address will the switch enter on its MAC address table?
+A: 1001.00A5.30A9
+
+Devices connected to a Hub are in the same [...] domain.
+A: collision
+
+Whenever a switch receives a frame for the [...] address or an unknown unicast address, 
+it will be flooded out all ports apart from the one it was received on.
+A: broadcast
+
+Whenever a switch receives a frame for the broadcast address or an unknown [...] address, 
+it will be flooded out all ports apart from the one it was received on.
+A: unicast
+

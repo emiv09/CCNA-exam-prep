@@ -1,0 +1,64 @@
+RIP is a [...] routing protocol.
+A: Distance Vector 
+
+RIP has a maximum hop count of [...].
+A: 15
+
+This RIP version does not send subnet mask information with routing updates, so VLSM is not supported.
+A: Version 1 (RIPv1)
+
+Which RIP version supports VLSM?
+A: RIPv2
+
+What does EIGRP stand for?
+A: Enhanced Interior Gateway Routing Protocol
+
+EIGRP will automatically perform equal cost load balancing on up to [...] paths by default.
+A: 4
+
+This routing protocol can be configured to perform unequal cost load balancing.
+A: EIGRP
+
+What does '20' signify in the command below?
+Router(config)#router eigrp 20
+A: Autonomous System(AS) number
+
+What is the corresponding wildcard mask of a /21 netmask?
+A: 0.0.7.255
+
+EIGRP routers identify themselves using an EIGRP [...] which is in the form of an IP address.
+A: Router ID
+
+What command will you enter to manually configure a router's EIGRP Router ID of 10.10.10.1?
+R1(config-router)# ?
+A: eigrp router-id 10.10.10.1
+
+RIPv2 updates are sent using what multicast address?
+A: 224.0.0.9
+
+What command is used to disable automatic summarization?
+A: no auto-summary
+
+If the Loopback address and the Router ID are not configured on the router, EIGRP will use this as the Router ID instead.
+A: highest other ip address
+
+This show command is used to check EIGRP neighbor adjacency.
+A: sh ip eigrp neighbors
+
+EIGRP's predecessor was [...].
+A: IGRP
+
+This RIP version supports authentication.
+A: RIPv2
+
+Which version of RIP does not support authentication?
+A: RIPv1
+
+What is 255.192.0.0 in wildcard mask?
+A: 0.63.255.255
+
+What is the default Administrative Distance of RIP?
+A: 120
+
+EIGRP will automatically perform equal cost load balancing on up to [...] paths by default.
+A: 4

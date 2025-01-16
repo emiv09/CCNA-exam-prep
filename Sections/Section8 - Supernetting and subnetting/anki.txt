@@ -1,0 +1,42 @@
+CIDR = classless inter domain routing
+formula: 2^(subnet_bits)
+hots: 2^(32-subnet_bts) -2 
+VLSM(Variable Length Subnet Masking)
+Fixed Length
+Broadcast address: 192.168.10.3
+Ip addresses: 2^5 = 32 - 2 = 30
+2^9 = 512 subnets
+
+172.80.250.148 / 19 -> 24-19 = 5 -> 2^5 = 32; 172.80.224.1 -> 172.80.255.254
+subnest: 2^subnet_bits
+
+192.123.45.67 / 26
+
+2^6 = 64 (hosts, adica 62 + network + broadcast); 192.123.45.64/26
+
+BroadCast address of 10.64.250.14/10
+	lucram pe octet 2: 16-10=6=>2^6=64
+	apartine de 10.64.0.0/10
+	next network address: 10.128.0.0/10
+	broadcast address:10.127.255.255	
+
+usable ip address range of : 126.12.16.0/23 
+	deci suntem pe octetul 3: 24-23 = 1=> 2^1 = 2 blocks
+	126.12.16.0 este newtork address
+	126.12.18.0 next network address
+	126.12.16.1->126.12.17.254 este range
+
+192.168.22.0 este network address si subnet mask este /27
+	deci avem 2^5=32 ne mutam cu 32 blocuri 
+	192.168.22.32 next network address
+	192.168.22.31 broadcast address
+	usable ip address range: 192.168.22.1-30
+192.168.22.63 este broadcast address si /28 subnet mask
+	deci avem 32-28=4 => 2^4=16 ne mutam cu 16 blocuri 
+	deci 192.168.22.64 este next network address
+	network address : 192.168.22.48
+	usable ip address range: 192.168.22.49-62
+network address: 192.168.22.32 si broadcast address: 192.168.22.47
+	next network address:192.168.22.48
+	=> ne mutam cu 16 blocuri => 4 host bits
+	=> /28 subnet mask
